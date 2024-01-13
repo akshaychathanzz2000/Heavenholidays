@@ -317,7 +317,7 @@ nav .fa-bars{
     display: inline-block;
     padding: 100px 7% 0;
     width: 100%;
-    background: #000;
+    background: #fff;
     text-align: right;
     max-height: 100px;
     overflow: hidden;
@@ -360,17 +360,19 @@ nav .fa-bars{
   .search-bar{
     width: 80%;
     margin: 30px auto;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px 10px 30px;
     position: relative;
+    background:#e2e2e2
   }
 
   .search-bar form{
     display: block;
+    color: #999;
   }
 
   .search-bar form input{
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #6e6e6e;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
