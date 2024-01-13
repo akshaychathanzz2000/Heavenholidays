@@ -322,11 +322,19 @@ nav .fa-bars{
     max-height: 100px;
     overflow: hidden;
     transition: max-height 0.5s;
+    
   }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  
 
   nav .nav-links li{
     margin: 10px 0;
     display: block;
+    
   }
 
   .register-btn{
@@ -346,6 +354,7 @@ nav .fa-bars{
     left: -40px;
     transform: translate(0,50%);
     bottom: 50%;
+    background-color: #ff5361;
   }
 
   .hidemenu{
@@ -356,6 +365,12 @@ nav .fa-bars{
     padding-top:200px;
     font-size: 7vw;
   }
+
+  .register-btn {
+    background: #ff5361;
+    color: #fff;
+  }
+  
 
   .search-bar{
     width: 80%;
